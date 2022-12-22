@@ -1,13 +1,12 @@
 package com.company.dp.String;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class WordBreak {
     public static void main(String[] args) {
+        ArrayList<Integer> arr = new ArrayList<>();
         String s = "leetcode";
+        System.out.println();
         List<String> wordDict = new ArrayList<>(
                 Arrays.asList( "leet","code")
         );
